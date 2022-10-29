@@ -4,4 +4,4 @@ docker run --rm -ti --network host \
 	--cap-add=NET_ADMIN \
 	--device /dev/net/tun:/dev/net/tun \
 	security-toolchain \
-	/bin/bash /work/init.sh
+	/bin/bash
