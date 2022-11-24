@@ -8,7 +8,8 @@ RUN apt-get install -y openvpn seclists netcat vim \
 	python3-pip dnsrecon enum4linux gobuster \
 	impacket-scripts nbtscan nikto nmap onesixtyone \
 	oscanner redis-tools smbclient smbmap \
-	sslscan tnscmd10g whatweb wkhtmltopdf
+	sslscan tnscmd10g whatweb wkhtmltopdf ftp \
+	squid
 
 # AutoRecon Install
 RUN git clone https://github.com/Tib3rius/AutoRecon /opt/AutoRecon && \
