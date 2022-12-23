@@ -9,7 +9,7 @@ RUN apt-get install -y openvpn seclists netcat vim \
 	impacket-scripts nbtscan nikto nmap onesixtyone \
 	oscanner redis-tools smbclient smbmap \
 	sslscan tnscmd10g whatweb wkhtmltopdf ftp \
-	squid
+	squid firefox
 
 # AutoRecon Install
 RUN git clone https://github.com/Tib3rius/AutoRecon /opt/AutoRecon && \
